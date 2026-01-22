@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+article{
+    display: flex;
+    
+}
+section{
+    flex: 1;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-seri;
+}

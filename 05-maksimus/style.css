@@ -1,0 +1,22 @@
+@charset "UTF -8";
+    
+
+table{
+    border: 2px solid lightgrey;
+    border-collapse: collapse;
+    box-shadow: 10px 10px 10px #666;
+}
+
+td{
+    border: 2px solid lightgrey;
+    padding: 8px;
+}
+
+td:first-child{
+    background-color: darkgrey;
+    color: white;
+}
+
+tr:nth-child(even){
+    background: grey;
+}
