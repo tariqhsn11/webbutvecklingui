@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+}
+
+p, h4{
+font-size: 25px; 
+}
+
+nav{
+    background-color: rgb(143, 139, 139);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+main{
+    margin-top: 5%;
+}
+
+header{
+    margin-top: 5%;
+}
+
+footer{
+    margin-top: 5%;
+}
+
+article{
+    margin-top: 5%;
+
+}
+
+aside{
+    margin-top: 5%;
+}
+
+section{
+    margin-top: 5%;
+}
