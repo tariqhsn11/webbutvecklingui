@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+:root{
+    font-size: 16px;
+    --bg-light: white hsl(200, 65%, 91%);
+    --bg-dark: black hsl(200, 16%, 4%);
+}
+
 body{
     margin: 0;
 }
@@ -38,4 +44,11 @@ aside{
 
 section{
     margin-top: 5%;
+}
+
+@media (max-width: 1000px){
+    :root{
+        font-size: 16px;
+        --bg-light:black;
+    }
 }
